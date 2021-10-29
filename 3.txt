@@ -1,0 +1,14 @@
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+   let a =0;
+   let b =0;
+  if (dadYearsOld/sonYearsOld==2)
+    {return 0;}
+   else if(dadYearsOld/sonYearsOld>2)
+   { a = sonYearsOld*2;
+    a = dadYearsOld - a;
+  return a; }
+   else if(dadYearsOld/sonYearsOld<2)
+   { b = dadYearsOld%sonYearsOld;
+    b = sonYearsOld - b;
+   return b;}
+}
