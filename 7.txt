@@ -1,0 +1,10 @@
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let min = 100000000;
+    for(let i=0;i<args.length;i++) // MINIMUM
+      {if(args[i]<min)
+        min = args[i];
+      }
+    return min;
+  }
+}
