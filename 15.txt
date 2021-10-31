@@ -1,0 +1,8 @@
+function stringToArray(string){
+  
+
+  var str = string;
+  var res = str.split(" "); // creates an array from a string
+
+return res;
+}
