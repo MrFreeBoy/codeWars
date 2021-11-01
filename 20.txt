@@ -1,0 +1,11 @@
+function rentalCarCost(d) {
+  let sum =0;
+  if(d>=7)
+    sum=40*d-50;
+  else if (d>=3 && d<7)
+    sum=40*d-20;
+  else 
+    sum=40*d;
+  return sum;
+  // Your solution here
+}

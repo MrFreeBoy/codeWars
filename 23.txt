@@ -1,0 +1,8 @@
+function century(year) {
+  let a=0;
+ if(year % 100==0)
+  a = parseInt(year/100);
+ if(year % 100>=1)
+  a = parseInt(year/100)+1;
+  return a;
+}
