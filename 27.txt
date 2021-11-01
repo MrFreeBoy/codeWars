@@ -1,0 +1,7 @@
+function testEven(n) {
+
+    if(Math.ceil(n)%2==0)
+      return true;
+    if (Math.ceil(n)%2>0)
+      return false;
+}
