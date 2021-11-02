@@ -1,0 +1,8 @@
+function doubleChar(str) {
+  let arr=[];
+  str.split('');
+  for(let i=0; i<str.length;i++)
+   { arr.push(str[i]+str[i])
+    }
+ return arr.join('');
+}
