@@ -1,0 +1,19 @@
+function solve(s){
+
+  let a = s.split('');
+  let oddArray =[];  
+  let cnta =0;
+  let cntA =0;
+  for (let i=0; i<a.length; i++)
+  { if(a[i]>='a' && a[i]<='z')
+     cnta++;
+    else if(a[i]>='A' && a[i]<='Z')
+     cntA++;
+   oddArray.push(a[i]);
+    }
+  let b = oddArray.join('');
+   if (cnta<cntA)
+    return  b.toUpperCase();
+  else 
+    return  b.toLowerCase();
+}

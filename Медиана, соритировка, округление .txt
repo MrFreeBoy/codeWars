@@ -1,0 +1,10 @@
+
+function median(array) {
+ let a = array.sort((a, b) => a - b);
+  let b = 0;
+    if(a.length%2==1)
+     {b = Math.floor(a.length/2);
+    return a[b];}
+  else 
+    {return (a[(a.length / 2) - 1] + a[a.length / 2])/2;} 
+}
