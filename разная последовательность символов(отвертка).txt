@@ -1,0 +1,12 @@
+function sc(screws){
+  let a = screws.split('');  
+  let cnt = 1;
+  for (let i=1; i<a.length; i++)
+   { if(a[i]== "-" && a[i-1] =="-" || a[i]== "+" && a[i-1] =="+")
+     cnt = cnt+2;
+    else if (a[i]== "+" && a[i-1] =="-" || a[i]== "-" && a[i-1] =="+")
+      cnt = cnt + 7;
+     
+      }
+  return cnt;
+}

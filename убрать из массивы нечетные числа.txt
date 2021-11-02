@@ -1,0 +1,9 @@
+function getEvenNumbers(numbersArray){
+  
+let oddArray =[];  
+  for (let i=0; i<numbersArray.length; i++)
+   { if(numbersArray[i]%2==0)
+      oddArray.push(numbersArray[i]);
+      }
+  return oddArray;
+}
