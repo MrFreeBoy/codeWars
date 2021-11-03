@@ -1,0 +1,22 @@
+function twoHighest(arr) {
+  let max = 0;
+  let max2 = 0;
+  let a = [];
+  if (arr.length ==0)
+    return [];
+  if (arr.length ==1)
+    return arr;
+  for(let i=0; i<arr.length;i++)
+   { 
+     if(arr[i]<2)
+       return [arr[i]];
+     if(arr[i]>max)
+      max = arr[i];  
+     }
+  for(let i=0; i<arr.length;i++)
+     {if (arr[i]>max2 && arr[i]<max)
+    max2=arr[i];
+      }
+  return [max,max2];
+ // return a.push(max,max2);
+}
