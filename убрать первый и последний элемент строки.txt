@@ -1,0 +1,11 @@
+function removeChar(str){
+ //You got this!
+let a = str.split('');
+  let b = [];
+  for(let i =1; i<a.length-1; i++)
+    {b.push(a[i]);}
+    return b.join('');
+  
+};
+
+
