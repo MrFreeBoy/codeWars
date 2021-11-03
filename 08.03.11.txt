@@ -1,0 +1,10 @@
+function betterThanAverage(classPoints, yourPoints) {
+  let a =0;
+  for(let i=0;i<classPoints.length ;i++ )
+    {a+=classPoints[i]
+     }
+  a = a/classPoints.length;
+  if (a<yourPoints)
+    return true;
+  else return false;
+}

@@ -1,0 +1,3 @@
+function cockroachSpeed(s) {
+ return Math.trunc(s*27.78);
+}
